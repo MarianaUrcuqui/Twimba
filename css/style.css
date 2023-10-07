@@ -137,10 +137,9 @@ button{
 
 /* instructions */
 .instructions{
-  position: fixed;
+  position: absolute;
   top: 3rem;
-  right: 3rem;
-  width: 25rem;
+  width: 260px;
   background-color: #7accff;
   border: #0c85d6 solid 1px;
   border-radius: 3px;
