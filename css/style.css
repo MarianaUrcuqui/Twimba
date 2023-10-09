@@ -161,7 +161,7 @@ button{
   cursor: pointer;
 }
 
-@media(max-width:600px) {
+@media(max-width:860px) {
     main, header{
       width: 80%;
     }
