@@ -161,8 +161,17 @@ button{
   cursor: pointer;
 }
 
-@media(max-width = 650px){
-  body{
-    background-color: #0c85d6;
-  }
+@media(max-width:600px) {
+    main, header{
+      width: 80%;
+    }
+
+    header h1{
+      font-size: 2rem;
+    }
+
+    .tweet-inner{
+      justify-content:center;
+    }
+  
 }
