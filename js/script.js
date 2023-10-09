@@ -91,7 +91,7 @@ function handleTweetBtnClick(){
     if(tweetInput.value){
         const newTweet = {
             handle: `@Scrimba`,
-            profilePic: `images/scrimbalogo.png`,
+            profilePic: `img/none.webp`,
             likes: 0,
             retweets: 0,
             tweetText: tweetInput.value,
