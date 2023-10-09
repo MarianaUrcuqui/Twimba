@@ -137,17 +137,26 @@ button{
 
 /* instructions */
 .instructions{
-  position: absolute;
-  top: 3rem;
+  position: relative;
   width: 260px;
   background-color: #7accff;
   border: #0c85d6 solid 1px;
   border-radius: 3px;
   padding: 1em;
   line-height: 1.5;
+  margin: 1rem auto;
+
 }
 
 
 .instructions h3, .instructions p{
   margin: 0;
+}
+
+.x{
+  position: absolute;
+  top: 0;
+  right: .8rem;
+  margin: 0;
+  cursor: pointer;
 }

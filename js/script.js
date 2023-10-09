@@ -25,6 +25,9 @@ document.addEventListener('click', function(e){
     else if(e.target.id === 'tweet-btn'){
         handleTweetBtnClick()
     }
+    else if(e.target.id === 'x'){
+        document.getElementById("instructions").style.display = 'none'
+    }
 })
 
 function getCommentsLS(){
